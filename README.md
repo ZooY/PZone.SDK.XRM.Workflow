@@ -1,9 +1,9 @@
 # PZone SDK XRM Workflow
 Common assembly for Microsoft Dynamics Workflow development.
 
-Documentation:
+## Documentation
 <ul>
-<li><a href="https://zooy.github.io/PZone.SDK.XRM.Workflow/v8/index.html"><b>v8</b>: Dynamics CRM 2016 / Dynamics 365</a></li>
+<li><a href="https://zooy.github.io/PZone.SDK.XRM.Workflow/v8/index.html"><b>v8</b> for Dynamics CRM 2016 / Dynamics 365</a></li>
 </ul>
 
 ## Install from NuGet
