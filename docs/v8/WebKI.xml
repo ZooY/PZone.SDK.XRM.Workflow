@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="CodeActivityContextExtensions class">
+    <HelpKINode Title="CodeActivityContextExtensions Class" Url="html/T_PZone_Xrm_Workflow_CodeActivityContextExtensions.htm" />
+    <HelpKINode Title="about CodeActivityContextExtensions class" Url="html/T_PZone_Xrm_Workflow_CodeActivityContextExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Workflow_CodeActivityContextExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CodeActivityContextExtensions.GetContext method" Url="html/M_PZone_Xrm_Workflow_CodeActivityContextExtensions_GetContext.htm" />
+  <HelpKINode Title="CodeActivityContextExtensions.GetService method" Url="html/Overload_PZone_Xrm_Workflow_CodeActivityContextExtensions_GetService.htm" />
+  <HelpKINode Title="CodeActivityContextExtensions.GetTracingService method" Url="html/M_PZone_Xrm_Workflow_CodeActivityContextExtensions_GetTracingService.htm" />
+  <HelpKINode Title="Configuring method" Url="html/M_PZone_Xrm_Workflow_WorkflowBase_Configuring.htm" />
+  <HelpKINode Title="Context class">
+    <HelpKINode Title="Context Class" Url="html/T_PZone_Xrm_Workflow_Context.htm" />
+    <HelpKINode Title="about Context class" Url="html/T_PZone_Xrm_Workflow_Context.htm" />
+    <HelpKINode Title="constructor" Url="html/M_PZone_Xrm_Workflow_Context__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_PZone_Xrm_Workflow_Context.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Workflow_Context.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_PZone_Xrm_Workflow_Context.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Context.Context constructor" Url="html/M_PZone_Xrm_Workflow_Context__ctor.htm" />
+  <HelpKINode Title="Context.EntityId property" Url="html/P_PZone_Xrm_Workflow_Context_EntityId.htm" />
+  <HelpKINode Title="Context.EntityName property" Url="html/P_PZone_Xrm_Workflow_Context_EntityName.htm" />
+  <HelpKINode Title="Context.IsTestingOrganization field" Url="html/F_PZone_Xrm_Workflow_Context_IsTestingOrganization.htm" />
+  <HelpKINode Title="Context.Service property" Url="html/P_PZone_Xrm_Workflow_Context_Service.htm" />
+  <HelpKINode Title="Context.SourceActivityContext property" Url="html/P_PZone_Xrm_Workflow_Context_SourceActivityContext.htm" />
+  <HelpKINode Title="Context.SourceContext property" Url="html/P_PZone_Xrm_Workflow_Context_SourceContext.htm" />
+  <HelpKINode Title="Context.TracingService property" Url="html/P_PZone_Xrm_Workflow_Context_TracingService.htm" />
+  <HelpKINode Title="EntityId property" Url="html/P_PZone_Xrm_Workflow_Context_EntityId.htm" />
+  <HelpKINode Title="EntityName property" Url="html/P_PZone_Xrm_Workflow_Context_EntityName.htm" />
+  <HelpKINode Title="ErrorMessage property" Url="html/P_PZone_Xrm_Workflow_WorkflowBase_ErrorMessage.htm" />
+  <HelpKINode Title="Execute method" Url="html/Overload_PZone_Xrm_Workflow_WorkflowBase_Execute.htm" />
+  <HelpKINode Title="Get(Of T) method">
+    <HelpKINode Title="InArgumentExtensions.Get(T) Method " Url="html/M_PZone_Xrm_Workflow_InArgumentExtensions_Get__1.htm" />
+    <HelpKINode Title="InOutArgumentExtensions.Get(T) Method " Url="html/M_PZone_Xrm_Workflow_InOutArgumentExtensions_Get__1.htm" />
+    <HelpKINode Title="OutArgumentExtensions.Get(T) Method " Url="html/M_PZone_Xrm_Workflow_OutArgumentExtensions_Get__1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Get&lt;T&gt; method">
+    <HelpKINode Title="InArgumentExtensions.Get(T) Method " Url="html/M_PZone_Xrm_Workflow_InArgumentExtensions_Get__1.htm" />
+    <HelpKINode Title="InOutArgumentExtensions.Get(T) Method " Url="html/M_PZone_Xrm_Workflow_InOutArgumentExtensions_Get__1.htm" />
+    <HelpKINode Title="OutArgumentExtensions.Get(T) Method " Url="html/M_PZone_Xrm_Workflow_OutArgumentExtensions_Get__1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetContext method" Url="html/M_PZone_Xrm_Workflow_CodeActivityContextExtensions_GetContext.htm" />
+  <HelpKINode Title="GetService method" Url="html/Overload_PZone_Xrm_Workflow_CodeActivityContextExtensions_GetService.htm" />
+  <HelpKINode Title="GetTracingService method" Url="html/M_PZone_Xrm_Workflow_CodeActivityContextExtensions_GetTracingService.htm" />
+  <HelpKINode Title="HasError property" Url="html/P_PZone_Xrm_Workflow_WorkflowBase_HasError.htm" />
+  <HelpKINode Title="InArgumentExtensions class">
+    <HelpKINode Title="InArgumentExtensions Class" Url="html/T_PZone_Xrm_Workflow_InArgumentExtensions.htm" />
+    <HelpKINode Title="about InArgumentExtensions class" Url="html/T_PZone_Xrm_Workflow_InArgumentExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Workflow_InArgumentExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InArgumentExtensions.Get(Of T) method" Url="html/M_PZone_Xrm_Workflow_InArgumentExtensions_Get__1.htm" />
+  <HelpKINode Title="InArgumentExtensions.Get&lt;T&gt; method" Url="html/M_PZone_Xrm_Workflow_InArgumentExtensions_Get__1.htm" />
+  <HelpKINode Title="InOutArgumentExtensions class">
+    <HelpKINode Title="InOutArgumentExtensions Class" Url="html/T_PZone_Xrm_Workflow_InOutArgumentExtensions.htm" />
+    <HelpKINode Title="about InOutArgumentExtensions class" Url="html/T_PZone_Xrm_Workflow_InOutArgumentExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Workflow_InOutArgumentExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InOutArgumentExtensions.Get(Of T) method" Url="html/M_PZone_Xrm_Workflow_InOutArgumentExtensions_Get__1.htm" />
+  <HelpKINode Title="InOutArgumentExtensions.Get&lt;T&gt; method" Url="html/M_PZone_Xrm_Workflow_InOutArgumentExtensions_Get__1.htm" />
+  <HelpKINode Title="InOutArgumentExtensions.Set(Of T) method" Url="html/M_PZone_Xrm_Workflow_InOutArgumentExtensions_Set__1.htm" />
+  <HelpKINode Title="InOutArgumentExtensions.Set&lt;T&gt; method" Url="html/M_PZone_Xrm_Workflow_InOutArgumentExtensions_Set__1.htm" />
+  <HelpKINode Title="InvalidWorkflowExecutionException class">
+    <HelpKINode Title="InvalidWorkflowExecutionException Class" Url="html/T_PZone_Xrm_Workflow_Exceptions_InvalidWorkflowExecutionException.htm" />
+    <HelpKINode Title="about InvalidWorkflowExecutionException class" Url="html/T_PZone_Xrm_Workflow_Exceptions_InvalidWorkflowExecutionException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_PZone_Xrm_Workflow_Exceptions_InvalidWorkflowExecutionException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_PZone_Xrm_Workflow_Exceptions_InvalidWorkflowExecutionException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Workflow_Exceptions_InvalidWorkflowExecutionException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_PZone_Xrm_Workflow_Exceptions_InvalidWorkflowExecutionException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InvalidWorkflowExecutionException.InvalidWorkflowExecutionException constructor" Url="html/Overload_PZone_Xrm_Workflow_Exceptions_InvalidWorkflowExecutionException__ctor.htm" />
+  <HelpKINode Title="IsTestingOrganization field" Url="html/F_PZone_Xrm_Workflow_Context_IsTestingOrganization.htm" />
+  <HelpKINode Title="ITracingServiceWorkflowExtension class">
+    <HelpKINode Title="ITracingServiceWorkflowExtension Class" Url="html/T_PZone_Xrm_Workflow_ITracingServiceWorkflowExtension.htm" />
+    <HelpKINode Title="about ITracingServiceWorkflowExtension class" Url="html/T_PZone_Xrm_Workflow_ITracingServiceWorkflowExtension.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Workflow_ITracingServiceWorkflowExtension.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITracingServiceWorkflowExtension.Trace method" Url="html/M_PZone_Xrm_Workflow_ITracingServiceWorkflowExtension_Trace.htm" />
+  <HelpKINode Title="OutArgumentExtensions class">
+    <HelpKINode Title="OutArgumentExtensions Class" Url="html/T_PZone_Xrm_Workflow_OutArgumentExtensions.htm" />
+    <HelpKINode Title="about OutArgumentExtensions class" Url="html/T_PZone_Xrm_Workflow_OutArgumentExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Workflow_OutArgumentExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OutArgumentExtensions.Get(Of T) method" Url="html/M_PZone_Xrm_Workflow_OutArgumentExtensions_Get__1.htm" />
+  <HelpKINode Title="OutArgumentExtensions.Get&lt;T&gt; method" Url="html/M_PZone_Xrm_Workflow_OutArgumentExtensions_Get__1.htm" />
+  <HelpKINode Title="OutArgumentExtensions.Set(Of T) method" Url="html/M_PZone_Xrm_Workflow_OutArgumentExtensions_Set__1.htm" />
+  <HelpKINode Title="OutArgumentExtensions.Set&lt;T&gt; method" Url="html/M_PZone_Xrm_Workflow_OutArgumentExtensions_Set__1.htm" />
+  <HelpKINode Title="PZone.Xrm.Workflow namespace" Url="html/N_PZone_Xrm_Workflow.htm" />
+  <HelpKINode Title="PZone.Xrm.Workflow.CodeActivityContextExtensions class" Url="html/T_PZone_Xrm_Workflow_CodeActivityContextExtensions.htm" />
+  <HelpKINode Title="PZone.Xrm.Workflow.Context class" Url="html/T_PZone_Xrm_Workflow_Context.htm" />
+  <HelpKINode Title="PZone.Xrm.Workflow.Exceptions namespace" Url="html/N_PZone_Xrm_Workflow_Exceptions.htm" />
+  <HelpKINode Title="PZone.Xrm.Workflow.Exceptions.InvalidWorkflowExecutionException class" Url="html/T_PZone_Xrm_Workflow_Exceptions_InvalidWorkflowExecutionException.htm" />
+  <HelpKINode Title="PZone.Xrm.Workflow.Exceptions.WorkflowConfigurationException class" Url="html/T_PZone_Xrm_Workflow_Exceptions_WorkflowConfigurationException.htm" />
+  <HelpKINode Title="PZone.Xrm.Workflow.InArgumentExtensions class" Url="html/T_PZone_Xrm_Workflow_InArgumentExtensions.htm" />
+  <HelpKINode Title="PZone.Xrm.Workflow.InOutArgumentExtensions class" Url="html/T_PZone_Xrm_Workflow_InOutArgumentExtensions.htm" />
+  <HelpKINode Title="PZone.Xrm.Workflow.ITracingServiceWorkflowExtension class" Url="html/T_PZone_Xrm_Workflow_ITracingServiceWorkflowExtension.htm" />
+  <HelpKINode Title="PZone.Xrm.Workflow.OutArgumentExtensions class" Url="html/T_PZone_Xrm_Workflow_OutArgumentExtensions.htm" />
+  <HelpKINode Title="PZone.Xrm.Workflow.WorkflowBase class" Url="html/T_PZone_Xrm_Workflow_WorkflowBase.htm" />
+  <HelpKINode Title="Service property" Url="html/P_PZone_Xrm_Workflow_Context_Service.htm" />
+  <HelpKINode Title="Set(Of T) method">
+    <HelpKINode Title="InOutArgumentExtensions.Set(T) Method " Url="html/M_PZone_Xrm_Workflow_InOutArgumentExtensions_Set__1.htm" />
+    <HelpKINode Title="OutArgumentExtensions.Set(T) Method " Url="html/M_PZone_Xrm_Workflow_OutArgumentExtensions_Set__1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Set&lt;T&gt; method">
+    <HelpKINode Title="InOutArgumentExtensions.Set(T) Method " Url="html/M_PZone_Xrm_Workflow_InOutArgumentExtensions_Set__1.htm" />
+    <HelpKINode Title="OutArgumentExtensions.Set(T) Method " Url="html/M_PZone_Xrm_Workflow_OutArgumentExtensions_Set__1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetError method" Url="html/M_PZone_Xrm_Workflow_WorkflowBase_SetError.htm" />
+  <HelpKINode Title="SourceActivityContext property" Url="html/P_PZone_Xrm_Workflow_Context_SourceActivityContext.htm" />
+  <HelpKINode Title="SourceContext property" Url="html/P_PZone_Xrm_Workflow_Context_SourceContext.htm" />
+  <HelpKINode Title="ThrowException property" Url="html/P_PZone_Xrm_Workflow_WorkflowBase_ThrowException.htm" />
+  <HelpKINode Title="Trace method" Url="html/M_PZone_Xrm_Workflow_ITracingServiceWorkflowExtension_Trace.htm" />
+  <HelpKINode Title="TraceException method" Url="html/M_PZone_Xrm_Workflow_WorkflowBase_TraceException.htm" />
+  <HelpKINode Title="TracingService property" Url="html/P_PZone_Xrm_Workflow_Context_TracingService.htm" />
+  <HelpKINode Title="WorkflowBase class">
+    <HelpKINode Title="WorkflowBase Class" Url="html/T_PZone_Xrm_Workflow_WorkflowBase.htm" />
+    <HelpKINode Title="about WorkflowBase class" Url="html/T_PZone_Xrm_Workflow_WorkflowBase.htm" />
+    <HelpKINode Title="constructor" Url="html/M_PZone_Xrm_Workflow_WorkflowBase__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Workflow_WorkflowBase.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_PZone_Xrm_Workflow_WorkflowBase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorkflowBase.Configuring method" Url="html/M_PZone_Xrm_Workflow_WorkflowBase_Configuring.htm" />
+  <HelpKINode Title="WorkflowBase.ErrorMessage property" Url="html/P_PZone_Xrm_Workflow_WorkflowBase_ErrorMessage.htm" />
+  <HelpKINode Title="WorkflowBase.Execute method" Url="html/Overload_PZone_Xrm_Workflow_WorkflowBase_Execute.htm" />
+  <HelpKINode Title="WorkflowBase.HasError property" Url="html/P_PZone_Xrm_Workflow_WorkflowBase_HasError.htm" />
+  <HelpKINode Title="WorkflowBase.SetError method" Url="html/M_PZone_Xrm_Workflow_WorkflowBase_SetError.htm" />
+  <HelpKINode Title="WorkflowBase.ThrowException property" Url="html/P_PZone_Xrm_Workflow_WorkflowBase_ThrowException.htm" />
+  <HelpKINode Title="WorkflowBase.TraceException method" Url="html/M_PZone_Xrm_Workflow_WorkflowBase_TraceException.htm" />
+  <HelpKINode Title="WorkflowBase.WorkflowBase constructor" Url="html/M_PZone_Xrm_Workflow_WorkflowBase__ctor.htm" />
+  <HelpKINode Title="WorkflowConfigurationException class">
+    <HelpKINode Title="WorkflowConfigurationException Class" Url="html/T_PZone_Xrm_Workflow_Exceptions_WorkflowConfigurationException.htm" />
+    <HelpKINode Title="about WorkflowConfigurationException class" Url="html/T_PZone_Xrm_Workflow_Exceptions_WorkflowConfigurationException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_PZone_Xrm_Workflow_Exceptions_WorkflowConfigurationException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_PZone_Xrm_Workflow_Exceptions_WorkflowConfigurationException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Workflow_Exceptions_WorkflowConfigurationException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_PZone_Xrm_Workflow_Exceptions_WorkflowConfigurationException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorkflowConfigurationException.WorkflowConfigurationException constructor" Url="html/Overload_PZone_Xrm_Workflow_Exceptions_WorkflowConfigurationException__ctor.htm" />
+</HelpKI>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.9.17.0" projectFile="C:\Projects\GitHub\PZone SDK XRM Workflow\PZone SDK XRM Workflow.shfbproj" started="08.08.2017 11:38:46">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Locating components in the following folder(s):
+    C:\Projects\GitHub\PZone SDK XRM Workflow
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Using framework reflection data for &#39;.NET Framework 4.5&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2016.9.17.0
+Copyright &#169; 2006-2016, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Projects\GitHub\PZone SDK XRM Workflow\Source\PZone.Xrm.Workflow\bin\Release\PZone.SDK.Xrm.Workflow.dll
+    Found assembly &#39;C:\Projects\GitHub\PZone SDK XRM Workflow\Source\PZone.Xrm.Workflow\bin\Release\PZone.SDK.Xrm.Workflow.dll&#39;
+Source: C:\Projects\GitHub\PZone SDK XRM Workflow\Source\PZone.Xrm.Workflow\bin\Release\PZone.SDK.Xrm.Workflow.xml
+
+Copying XML comments files
+    C:\Projects\GitHub\PZone SDK XRM Workflow\Source\PZone.Xrm.Workflow\bin\Release\PZone.SDK.Xrm.Workflow.xml -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\PZone.SDK.Xrm.Workflow.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, Английский (США))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00,0470
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0050
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateRefInfo.proj]
+Џ&#174;бва&#174;Ґ&#173;ЁҐ &#173;&#160;з&#160;в&#174; 08.08.2017 11:38:48.
+–Ґ&#171;Ґў&#174;&#169; &#174;ЎкҐЄв &quot;_ConvertPdbFiles&quot;, гЄ&#160;&#167;&#160;&#173;&#173;л&#169; ў &#160;ваЁЎгвҐ BeforeTargets &#164;&#171;п &quot;C:\Program Files (x86)\MSBuild\4.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)&quot;, &#173;Ґ бгйҐбвўгҐв ў Їа&#174;ҐЄвҐ Ё Ўг&#164;Ґв Їа&#174;ЇгйҐ&#173;.
+–Ґ&#171;Ґў&#174;&#169; &#174;ЎкҐЄв &quot;_CollectPdbFiles&quot;, гЄ&#160;&#167;&#160;&#173;&#173;л&#169; ў &#160;ваЁЎгвҐ AfterTargets &#164;&#171;п &quot;C:\Program Files (x86)\MSBuild\4.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)&quot;, &#173;Ґ бгйҐбвўгҐв ў Їа&#174;ҐЄвҐ Ё Ўг&#164;Ґв Їа&#174;ЇгйҐ&#173;.
+–Ґ&#171;Ґў&#174;&#169; &#174;ЎкҐЄв &quot;_CollectMdbFiles&quot;, гЄ&#160;&#167;&#160;&#173;&#173;л&#169; ў &#160;ваЁЎгвҐ BeforeTargets &#164;&#171;п &quot;C:\Program Files (x86)\MSBuild\4.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)&quot;, &#173;Ґ бгйҐбвўгҐв ў Їа&#174;ҐЄвҐ Ё Ўг&#164;Ґв Їа&#174;ЇгйҐ&#173;.
+–Ґ&#171;Ґў&#174;&#169; &#174;ЎкҐЄв &quot;_CopyMdbFiles&quot;, гЄ&#160;&#167;&#160;&#173;&#173;л&#169; ў &#160;ваЁЎгвҐ AfterTargets &#164;&#171;п &quot;C:\Program Files (x86)\MSBuild\4.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)&quot;, &#173;Ґ бгйҐбвўгҐв ў Їа&#174;ҐЄвҐ Ё Ўг&#164;Ґв Їа&#174;ЇгйҐ&#173;.
+Џа&#174;ҐЄв &quot;C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\GenerateRefInfo.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+PrepareForBuild:
+  ‘&#174;&#167;&#164;&#160;&#173;ЁҐ Є&#160;в&#160;&#171;&#174;Ј&#160; &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 2 namespaces, 9 types, and 33 members
+  Љ&#174;ЇЁа&#174;ў&#160;&#173;ЁҐ д&#160;&#169;&#171;&#160; Ё&#167; &quot;reflection.org&quot; ў &quot;reflection.all&quot;.
+  XslTransform (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Џ&#174;бва&#174;Ґ&#173;ЁҐ Їа&#174;ҐЄв&#160; &quot;C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\GenerateRefInfo.proj&quot; &#167;&#160;ўҐаиҐ&#173;&#174; (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+
+Џ&#174;бва&#174;Ґ&#173;ЁҐ гбЇҐи&#173;&#174; &#167;&#160;ўҐаиҐ&#173;&#174;.
+
+‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:01.49
+    Last step completed in 00:00:02,0127
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - TransformManifest.proj]
+Џ&#174;бва&#174;Ґ&#173;ЁҐ &#173;&#160;з&#160;в&#174; 08.08.2017 11:38:50.
+Џа&#174;ҐЄв &quot;C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\TransformManifest.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+TransformManifest:
+  XslTransform (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Љ&#174;ЇЁа&#174;ў&#160;&#173;ЁҐ д&#160;&#169;&#171;&#160; Ё&#167; &quot;reflection.xml&quot; ў &quot;reflection.ungrouped&quot;.
+  AddNamespaceGroups (v2016.9.17.0)
+  Copyright c 2006-2016, Eric Woodruff, All Rights Reserved
+  Added 0 namespace group entries
+  Љ&#174;ЇЁа&#174;ў&#160;&#173;ЁҐ д&#160;&#169;&#171;&#160; Ё&#167; &quot;reflection.xml&quot; ў &quot;reflection.nofilenames&quot;.
+  XslTransform (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+    Unique name M_PZone_Xrm_Workflow_CodeActivityContextExtensions_GetService_1 generated for M:PZone.Xrm.Workflow.CodeActivityContextExtensions.GetService(System.Activities.CodeActivityContext,System.Guid)
+    Unique name M_PZone_Xrm_Workflow_WorkflowBase_Execute_1 generated for M:PZone.Xrm.Workflow.WorkflowBase.Execute(System.Activities.CodeActivityContext)
+    Unique name M_PZone_Xrm_Workflow_Exceptions_InvalidWorkflowExecutionException__ctor_1 generated for M:PZone.Xrm.Workflow.Exceptions.InvalidWorkflowExecutionException.#ctor(System.String,System.Exception)
+    Unique name M_PZone_Xrm_Workflow_Exceptions_WorkflowConfigurationException__ctor_1 generated for M:PZone.Xrm.Workflow.Exceptions.WorkflowConfigurationException.#ctor(System.Int32,System.String,System.Exception)
+    Unique name M_PZone_Xrm_Workflow_Exceptions_WorkflowConfigurationException__ctor_2 generated for M:PZone.Xrm.Workflow.Exceptions.WorkflowConfigurationException.#ctor(System.String)
+    Unique name M_PZone_Xrm_Workflow_Exceptions_WorkflowConfigurationException__ctor_3 generated for M:PZone.Xrm.Workflow.Exceptions.WorkflowConfigurationException.#ctor(System.String,System.Exception)
+  XslTransform (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Џ&#174;бва&#174;Ґ&#173;ЁҐ Їа&#174;ҐЄв&#160; &quot;C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\TransformManifest.proj&quot; &#167;&#160;ўҐаиҐ&#173;&#174; (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+
+Џ&#174;бва&#174;Ґ&#173;ЁҐ гбЇҐи&#173;&#174; &#167;&#160;ўҐаиҐ&#173;&#174;.
+
+‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:01.10
+    Last step completed in 00:00:01,5058
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,0281
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00,0050
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateIntermediateTOC.proj]
+Џ&#174;бва&#174;Ґ&#173;ЁҐ &#173;&#160;з&#160;в&#174; 08.08.2017 11:38:51.
+Џа&#174;ҐЄв &quot;C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\GenerateIntermediateTOC.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+GenerateIntermediateTOC:
+  XslTransform (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Џ&#174;бва&#174;Ґ&#173;ЁҐ Їа&#174;ҐЄв&#160; &quot;C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\GenerateIntermediateTOC.proj&quot; &#167;&#160;ўҐаиҐ&#173;&#174; (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+
+Џ&#174;бва&#174;Ґ&#173;ЁҐ гбЇҐи&#173;&#174; &#167;&#160;ўҐаиҐ&#173;&#174;.
+
+‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:00.62
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:01,0273
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00,3936
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\sandcastle.config
+  Updating reference topic configurations.
+    Replacing default configuration for &#39;Code Block Component&#39; with the custom configuration
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00,0181
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - BuildTopics.proj]
+Џ&#174;бва&#174;Ґ&#173;ЁҐ &#173;&#160;з&#160;в&#174; 08.08.2017 11:38:53.
+Џа&#174;ҐЄв &quot;C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+BuildTopics:
+  BuildAssembler (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:PZone.Xrm.Workflow.Exceptions.InvalidWorkflowExecutionException] Unknown reference link target &#39;T:PZone.Exceptions.CommonException&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:PZone.Xrm.Workflow.Exceptions.InvalidWorkflowExecutionException] Unknown reference link target &#39;P:PZone.Exceptions.CommonException.Code&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:PZone.Xrm.Workflow.Exceptions.InvalidWorkflowExecutionException] Unknown reference link target &#39;T:PZone.Exceptions.CommonException&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:PZone.Xrm.Workflow.Exceptions.InvalidWorkflowExecutionException] Unknown reference link target &#39;P:PZone.Exceptions.CommonException.Details&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:PZone.Xrm.Workflow.Exceptions.InvalidWorkflowExecutionException] Unknown reference link target &#39;T:PZone.Exceptions.CommonException&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:PZone.Xrm.Workflow.Exceptions.InvalidWorkflowExecutionException] Unknown reference link target &#39;P:PZone.Exceptions.CommonException.Solutions&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:PZone.Xrm.Workflow.Exceptions.InvalidWorkflowExecutionException] Unknown reference link target &#39;T:PZone.Exceptions.CommonException&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:PZone.Xrm.Workflow.Exceptions.InvalidWorkflowExecutionException] Unknown reference link target &#39;P:PZone.Exceptions.CommonException.Code&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:PZone.Xrm.Workflow.Exceptions.InvalidWorkflowExecutionException] Unknown reference link target &#39;T:PZone.Exceptions.CommonException&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:PZone.Xrm.Workflow.Exceptions.InvalidWorkflowExecutionException] Unknown reference link target &#39;P:PZone.Exceptions.CommonException.Details&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:PZone.Xrm.Workflow.Exceptions.InvalidWorkflowExecutionException] Unknown reference link target &#39;T:PZone.Exceptions.CommonException&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:PZone.Xrm.Workflow.Exceptions.InvalidWorkflowExecutionException] Unknown reference link target &#39;P:PZone.Exceptions.CommonException.Solutions&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:PZone.Xrm.Workflow.Exceptions.InvalidWorkflowExecutionException] Unknown reference link target &#39;T:PZone.Exceptions.CommonException&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:PZone.Xrm.Workflow.Exceptions.WorkflowConfigurationException] Unknown reference link target &#39;T:PZone.Exceptions.CommonException&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:PZone.Xrm.Workflow.Exceptions.WorkflowConfigurationException] Unknown reference link target &#39;T:PZone.Exceptions.ConfigurationException&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:PZone.Xrm.Workflow.Exceptions.WorkflowConfigurationException] Unknown reference link target &#39;P:PZone.Exceptions.CommonException.Code&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:PZone.Xrm.Workflow.Exceptions.WorkflowConfigurationException] Unknown reference link target &#39;T:PZone.Exceptions.CommonException&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:PZone.Xrm.Workflow.Exceptions.WorkflowConfigurationException] Unknown reference link target &#39;P:PZone.Exceptions.CommonException.Details&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:PZone.Xrm.Workflow.Exceptions.WorkflowConfigurationException] Unknown reference link target &#39;T:PZone.Exceptions.CommonException&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:PZone.Xrm.Workflow.Exceptions.WorkflowConfigurationException] Unknown reference link target &#39;P:PZone.Exceptions.CommonException.Solutions&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:PZone.Xrm.Workflow.Exceptions.WorkflowConfigurationException] Unknown reference link target &#39;T:PZone.Exceptions.CommonException&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:PZone.Xrm.Workflow.Exceptions.WorkflowConfigurationException] Unknown reference link target &#39;P:PZone.Exceptions.CommonException.Code&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:PZone.Xrm.Workflow.Exceptions.WorkflowConfigurationException] Unknown reference link target &#39;T:PZone.Exceptions.CommonException&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:PZone.Xrm.Workflow.Exceptions.WorkflowConfigurationException] Unknown reference link target &#39;P:PZone.Exceptions.CommonException.Details&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:PZone.Xrm.Workflow.Exceptions.WorkflowConfigurationException] Unknown reference link target &#39;T:PZone.Exceptions.CommonException&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:PZone.Xrm.Workflow.Exceptions.WorkflowConfigurationException] Unknown reference link target &#39;P:PZone.Exceptions.CommonException.Solutions&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:PZone.Xrm.Workflow.Exceptions.WorkflowConfigurationException] Unknown reference link target &#39;T:PZone.Exceptions.CommonException&#39;. [C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj]
+  Processed 65 topic(s)
+  27 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 4 of 30.
+  ResolveReferenceLinksComponent: 10 entries added to the MSDN content ID cache.  New cache size: 108 entries
+Џ&#174;бва&#174;Ґ&#173;ЁҐ Їа&#174;ҐЄв&#160; &quot;C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\BuildTopics.proj&quot; &#167;&#160;ўҐаиҐ&#173;&#174; (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+
+Џ&#174;бва&#174;Ґ&#173;ЁҐ гбЇҐи&#173;&#174; &#167;&#160;ўҐаиҐ&#173;&#174;.
+
+‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:12.21
+    Last step completed in 00:00:12,6907
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0030
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - ExtractHtmlInfo.proj]
+Sandcastle Help File Builder and Tools, version 2016.9.17.0
+Copyright c 2006-2016, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing website files in C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website
+Processed 65 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\WebKI.xml
+Saving website table of contents to C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\WebTOC.xml
+    Last step completed in 00:00:00,9549
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\Web.Config
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\Search.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\TocClose.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\TocCollapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\TocExpanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\icons\TocOpen.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\scripts\branding-Website.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Projects\GitHub\PZone SDK XRM Workflow\docs\v8\Working\Output\Website\scripts\jquery-1.11.0.min.js
+    Last step completed in 00:00:00,2186
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+Adding lightweight search and TOC elements to each topic...
+</plugIn>    Last step completed in 00:00:00,2765
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 211 files for the website content
+    Last step completed in 00:00:00,4062
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,1769
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 08.08.2017 11:39:07.  Total time: 00:00:20,7404
+
+</buildStep>
+</shfbBuild>
