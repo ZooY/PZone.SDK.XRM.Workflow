@@ -10,7 +10,7 @@ Common assembly for Microsoft Dynamics Workflow development.
 
 <a href="https://preview.nuget.org/packages/PZone.SDK.XRM.Workflow/">NuGet Package Page</a>
 
-PM> Install-Package PZone.SDK.XRM.Workflow
+```PM> Install-Package PZone.SDK.XRM.Workflow```
 
 ## Download
 
