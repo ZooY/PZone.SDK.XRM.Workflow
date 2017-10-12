@@ -147,3 +147,47 @@ namespace PZone.Xrm.Workflow
         }
     }
 }
+
+
+// TODO: Логирование
+// http://butenko.pro/2017/09/12/howto-log-all-inputs-of-your-custom-worflow-activities-in-generic-way/
+/*
+var properties = GetType().GetProperties(System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public);
+ 
+properties.ToList().ForEach(p =>
+{
+    if (p.PropertyType.IsSubclassOf(typeof(InArgument)) ||
+        p.PropertyType.IsSubclassOf(typeof(InOutArgument)))
+    {
+ 
+        var propertyLabel = ((InputAttribute) p.GetCustomAttribute(typeof(InputAttribute))).Name;
+ 
+        var logText = $"Value of '{propertyLabel}' attribute equals to ";
+ 
+        var property = (Argument) p.GetValue(this);
+        var propertyValue = property.Get(executionContext);
+ 
+        if (propertyValue == null)
+            logText += "empty";
+        else if (propertyValue is string ||
+                    propertyValue is decimal ||
+                    propertyValue is int ||
+                    propertyValue is bool)
+            logText += propertyValue.ToString();
+        else if (propertyValue is DateTime)
+            logText += ((DateTime) propertyValue).ToString("yyyy-MM-dd HH:mm:ss \"GMT\"zzz");
+        else if (propertyValue is EntityReference)
+        {
+            var er = (EntityReference) propertyValue;
+            logText += $"Id: {er.Id}, LogicalName: {er.LogicalName}";
+        }
+        else if (propertyValue is OptionSetValue)
+            logText += ((OptionSetValue) propertyValue).Value;
+        else if (propertyValue is Money)
+            logText += ((Money) propertyValue).Value.ToString();
+        else logText += $"undefined type - {p.GetType().FullName}";
+ 
+        tracingService.Trace(logText);
+    }
+});
+ */
