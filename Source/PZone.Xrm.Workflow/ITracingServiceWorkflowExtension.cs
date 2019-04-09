@@ -8,7 +8,7 @@ namespace PZone.Xrm.Workflow
     /// Расширение функционала классов, реализующих интерфейс <see cref="ITracingService"/>.
     /// </summary>
     // ReSharper disable once InconsistentNaming
-    public static class ITracingServiceWorkflowExtension
+    public static class ITracingServiceExtension
     {
         /// <summary>
         /// Запись в трассировку данных об исключении.

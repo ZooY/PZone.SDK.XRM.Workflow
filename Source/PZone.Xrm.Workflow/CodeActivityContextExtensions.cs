@@ -34,7 +34,7 @@ namespace PZone.Xrm.Workflow
         /// <returns>
         /// Метод возвращает ссылку на экземпляр CRM-сервиса, запусщенного от имени указанного пользователя.
         /// </returns>
-        public static IOrganizationService GetService(this CodeActivityContext executionContext, Guid userId)
+        public static IOrganizationService GetService(this CodeActivityContext executionContext, Guid? userId)
         {
             return executionContext.GetExtension<IOrganizationServiceFactory>().CreateOrganizationService(userId);
         }
