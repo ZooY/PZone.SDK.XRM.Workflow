@@ -2,3 +2,4 @@ Source/PZone.Xrm.Workflow/bin/
 Source/packages/
 Source/PZone.Xrm.Workflow/obj/
 *.suo
+Source/.vs/

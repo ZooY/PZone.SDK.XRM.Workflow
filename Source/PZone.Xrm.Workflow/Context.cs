@@ -13,6 +13,7 @@ namespace PZone.Xrm.Workflow
     {
         private readonly Lazy<IWorkflowContext> _context;
         private readonly Lazy<IOrganizationService> _service;
+        private readonly Lazy<IOrganizationService> _systemService;
         private readonly Lazy<ITracingService> _tracingService;
 
         /// <summary>
@@ -30,6 +31,7 @@ namespace PZone.Xrm.Workflow
             SourceActivityContext = activityContext;
             _context = new Lazy<IWorkflowContext>(() => SourceActivityContext.GetContext());
             _service = new Lazy<IOrganizationService>(() => SourceActivityContext.GetService());
+            _systemService = new Lazy<IOrganizationService>(() => SourceActivityContext.GetService(null));
             _tracingService = new Lazy<ITracingService>(() => SourceActivityContext.GetTracingService());
         }
 
@@ -44,6 +46,12 @@ namespace PZone.Xrm.Workflow
         /// Ссылка на экземпляр CRM-сервиса, запусщенного от имени пользователя, инициировавшего запуск действия процесса.
         /// </summary>
         public IOrganizationService Service => _service.Value;
+
+
+        /// <summary>
+        /// Ссылка на экземпляр CRM-сервиса, запусщенного от имени системного пользователя (имеющего полный доступ к системе).
+        /// </summary>
+        public IOrganizationService SystemService => _systemService.Value;
 
 
         /// <summary>
