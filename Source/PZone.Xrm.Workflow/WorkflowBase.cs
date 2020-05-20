@@ -121,7 +121,7 @@ namespace PZone.Xrm.Workflow
             context.TracingService.Trace("=== Activity Context ===");
             context.TracingService.Trace(context.SourceActivityContext);
             context.TracingService.Trace("=== Context ===");
-            context.TracingService.Trace(context.SourceContext);
+            context.TracingService.Trace(BuildLogContext(context.SourceContext));
             context.TracingService.Trace("=== Exception ===");
             var ex = exception;
             while (ex != null)
@@ -129,6 +129,46 @@ namespace PZone.Xrm.Workflow
                 context.TracingService.Trace(ex);
                 ex = ex.InnerException;
             }
+        }
+
+
+        /// <summary>
+        /// Формирование контекста плагина, пригодного для записи в журнал.
+        /// </summary>
+        private object BuildLogContext(IWorkflowContext context, int depth = 0)
+        {
+            return new
+            {
+                context.MessageName,
+                context.StageName,
+                context.Mode,
+                context.UserId,
+                context.InitiatingUserId,
+                context.BusinessUnitId,
+                context.OrganizationId,
+                context.OrganizationName,
+                context.CorrelationId,
+                context.Depth,
+                context.PrimaryEntityId,
+                context.PrimaryEntityName,
+                context.SecondaryEntityName,
+                context.IsExecutingOffline,
+                context.IsInTransaction,
+                context.IsOfflinePlayback,
+                context.IsolationMode,
+                context.OperationCreatedOn,
+                context.RequestId,
+                context.OperationId,
+                context.InputParameters,
+                context.OutputParameters,
+                context.SharedVariables,
+                context.PreEntityImages,
+                context.PostEntityImages,
+                context.OwningExtension,
+                context.WorkflowCategory,
+                context.WorkflowMode,
+                ParentContext = depth > 5 ? "Depth > 5" : BuildLogContext(context.ParentContext, depth + 1)
+            };
         }
 
 
