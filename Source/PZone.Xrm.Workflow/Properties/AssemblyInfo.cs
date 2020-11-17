@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Programming Zone")]
 [assembly: AssemblyProduct("PZone SDK XRM")]
-[assembly: AssemblyCopyright("Copyright © 2017 Programming Zone")]
+[assembly: AssemblyCopyright("Copyright © 2017-2020 Programming Zone")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("8.0.3.2")]
-[assembly: AssemblyFileVersion("8.0.3.2")]
+[assembly: AssemblyVersion("8.0.3.3")]
+[assembly: AssemblyFileVersion("8.0.3.3")]

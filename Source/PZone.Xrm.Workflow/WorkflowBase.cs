@@ -137,38 +137,40 @@ namespace PZone.Xrm.Workflow
         /// </summary>
         private object BuildLogContext(IWorkflowContext context, int depth = 0)
         {
-            return new
-            {
-                context.MessageName,
-                context.StageName,
-                context.Mode,
-                context.UserId,
-                context.InitiatingUserId,
-                context.BusinessUnitId,
-                context.OrganizationId,
-                context.OrganizationName,
-                context.CorrelationId,
-                context.Depth,
-                context.PrimaryEntityId,
-                context.PrimaryEntityName,
-                context.SecondaryEntityName,
-                context.IsExecutingOffline,
-                context.IsInTransaction,
-                context.IsOfflinePlayback,
-                context.IsolationMode,
-                context.OperationCreatedOn,
-                context.RequestId,
-                context.OperationId,
-                context.InputParameters,
-                context.OutputParameters,
-                context.SharedVariables,
-                context.PreEntityImages,
-                context.PostEntityImages,
-                context.OwningExtension,
-                context.WorkflowCategory,
-                context.WorkflowMode,
-                ParentContext = depth > 5 ? "Depth > 5" : BuildLogContext(context.ParentContext, depth + 1)
-            };
+            return context == null
+                ? null
+                : new
+                {
+                    context.MessageName,
+                    context.StageName,
+                    context.Mode,
+                    context.UserId,
+                    context.InitiatingUserId,
+                    context.BusinessUnitId,
+                    context.OrganizationId,
+                    context.OrganizationName,
+                    context.CorrelationId,
+                    context.Depth,
+                    context.PrimaryEntityId,
+                    context.PrimaryEntityName,
+                    context.SecondaryEntityName,
+                    context.IsExecutingOffline,
+                    context.IsInTransaction,
+                    context.IsOfflinePlayback,
+                    context.IsolationMode,
+                    context.OperationCreatedOn,
+                    context.RequestId,
+                    context.OperationId,
+                    context.InputParameters,
+                    context.OutputParameters,
+                    context.SharedVariables,
+                    context.PreEntityImages,
+                    context.PostEntityImages,
+                    context.OwningExtension,
+                    context.WorkflowCategory,
+                    context.WorkflowMode,
+                    ParentContext = depth > 5 ? "Depth > 5" : BuildLogContext(context.ParentContext, depth + 1)
+                };
         }
 
 
