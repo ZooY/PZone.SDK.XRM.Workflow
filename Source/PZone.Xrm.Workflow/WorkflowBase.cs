@@ -185,7 +185,7 @@ namespace PZone.Xrm.Workflow
             HasError.Set(context, true);
             ErrorMessage.Set(context, message);
             if (ThrowException.Get(context))
-                throw new Exception(message);
+                throw new InvalidWorkflowExecutionException(message);
         }
     }
 }
